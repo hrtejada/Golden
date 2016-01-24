@@ -1,0 +1,18 @@
+
+<header class="navbar navbar-static navbar-inverse">
+  <div class="container-fluid">
+     <div class="row">
+        <img src="/Banner.gif" class="img-responsive">
+     </div>
+  </div>
+  <div class="container">
+    <%= link_to "Golden Vapor", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Events", events_path %></li>
+        <li><%= link_to "About", about_path %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
