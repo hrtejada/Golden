@@ -5,9 +5,17 @@
     <title><%= yield(:title) %> | Golden Vapor</title>
   </head>
   <body>
-    <h1>About</h1>
-    <p>
-      About page for Golden Vapor
-    </p>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">About
+                <small>Golden Vapor</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><%= link_to "Home", root_path %>
+                </li>
+                <li class="active">Mods</li>
+            </ol>
+        </div>
+    </div>
   </body>
 </html>

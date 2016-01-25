@@ -11,6 +11,10 @@ Rails.application.routes.draw do
 
   get 'events' => 'static_pages#events'
 
+  get 'juices' => 'static_pages#juices'
+
+  get 'mods'  =>  'static_pages#mods'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
